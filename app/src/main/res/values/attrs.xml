@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--定义名字为MyAttributeView的属性集合-->
+    <declare-styleable name="MyAttributeView">
+        <!--定义名字为my_name，并且类型为string的属性-->
+        <attr name="my_name" format="string" />
+        <!--定义名字为my_age，并且类型为integer的属性-->
+        <attr name="my_age" format="integer" />
+        <!--定义名字为my_bg，并且类型为reference|color的属性-->
+        <attr name="my_bg" format="reference|color" />
+
+    </declare-styleable>
+</resources>
